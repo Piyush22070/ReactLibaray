@@ -1,0 +1,80 @@
+body{
+    background-image: url("./assets/back.jpg");
+    position: relative;
+}
+.home{
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 20px black;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+    text-align: center;
+    position: relative;
+    top: 230px;
+    left: 800px;
+}
+.heading{
+    text-align: center;
+    font-family: "Anta", sans-serif;
+    width: 500px;
+    color: grey;
+    font-size: 56px; 
+}
+.bheading{
+    text-align: center;
+    font-family: "Anta", sans-serif;
+    width: 500px;
+    color: rgb(0, 0, 0);
+    font-size: 56px;
+    position: relative;
+    left: 720px;
+}
+.book{
+    position: relative;
+    margin-top: 30px;
+    height: 550px;
+    width: 300px;
+    padding: 10px;
+    box-shadow: 1px 1px 10px black;
+    transition: ease;
+    border-radius: 10px;
+
+}
+.book:hover{
+    box-shadow: 1px 1px 20px black;
+}
+.list{
+    top: 30px;
+    position: relative;
+    left: 250px;
+    bottom: 50px;
+}
+.form{
+    border: 1px solid black;
+    position: relative;
+    left: 600px;
+    top: 150px;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 20px black;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+    text-align: center;
+}
+.aheading{
+    text-align: center;
+    font-family: "Anta", sans-serif;
+    width: 500px;
+    color: grey;
+    font-size: 56px; 
+}
+label{
+    font-family: "Anta", sans-serif;
+    text-align: left;
+}
+input{
+    background-color: whitesmoke;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
